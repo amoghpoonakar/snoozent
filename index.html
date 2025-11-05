@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AdMad — Snoozent Marketing</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo"></div>
+        <div class="brand-text">
+          <strong>Snoozent</strong>
+          <small class="muted">Pocket Awakener</small>
+        </div>
+      </div>
+
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+      </nav>
+
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-label="Toggle menu">
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main id="mainContent" class="container main-content">
+  </main>
+
+  <footer class="site-footer container">
+    <div>Made by <strong>Amogh Poonakar</strong></div>
+    <div class="muted">Use ← → or the nav to move between sections</div>
+
+    <button id="buyProductBtn" class="buy-button">
+      Buy Snoozent Product!
+    </button>
+  </footer>
+
+  <div id="noFundsModal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <button id="closeModalBtn" class="modal-close" aria-label="Close modal">&times;</button>
+      <h3 class="modal-title">SNOOZENT Purchase Protocol</h3>
+      <p class="modal-message">
+        **No Funds = No Product**
+      </p>
+      <p class="modal-subtitle">
+        This project is conceptual
+      </p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
