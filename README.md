@@ -22,8 +22,8 @@ Snoozent is a **fictional product created purely for a college marketing competi
 
 ## Team – AdMad
 
-* Amogh
-* Aryan
-* Adithya
-* Akash
-* Arjun
+* Amogh Poonakar
+* Aryan Singh
+* Adithya Narayana
+* Akash Patil
+* Arjun Royal
